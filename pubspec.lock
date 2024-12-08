@@ -68,7 +68,7 @@ packages:
   chat_message:
     dependency: "direct main"
     description:
-      path: "../chat_message"
+      path: chat_message
       relative: true
     source: path
     version: "1.0.0"
@@ -178,7 +178,7 @@ packages:
   hi_download:
     dependency: "direct main"
     description:
-      path: "../hi_download"
+      path: hi_download
       relative: true
     source: path
     version: "0.0.1"
@@ -241,7 +241,7 @@ packages:
   login_sdk:
     dependency: "direct main"
     description:
-      path: "../login_sdk"
+      path: login_sdk
       relative: true
     source: path
     version: "0.0.1"
@@ -304,7 +304,7 @@ packages:
   openai_flutter:
     dependency: "direct main"
     description:
-      path: "../openai_flutter"
+      path: openai_flutter
       relative: true
     source: path
     version: "0.0.1"
