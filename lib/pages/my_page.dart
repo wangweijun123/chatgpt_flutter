@@ -193,6 +193,6 @@ class _MyPageState extends State<MyPage> {
 }
 
 void installAPK(String? path) async {
-  var result = await OpenFilex.open(path);
+  var result = await OpenFilex.open(path!);
   AILogger.log('installAPK:${result.type} message:${result.message}');
 }
